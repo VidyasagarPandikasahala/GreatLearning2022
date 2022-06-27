@@ -37,5 +37,4 @@ public class DepartmentApp {
 
 		System.out.println("\n");
 	}
-
 }
