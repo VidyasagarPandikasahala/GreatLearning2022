@@ -6,14 +6,14 @@ public class BalanceBracketDriver {
 
 	public static void main(String[] args) {
 		CheckBalanceBrackets check = new CheckBalanceBrackets();
-		String bracketExpression = "( [ [ { } ] ] ) )";
+		String bracketExpression = "( [ [ { } ] ] )";
 		boolean result;
 		result = check.findPair(bracketExpression);
 
 		if (result) {
-			System.out.println("The brackets are balanced");
+			System.out.println("The entered String has Balanced Brackets");
 		} else {
-			System.out.println("The brackets are unbalanced");
+			System.out.println("The entered Strings do not contain Balanced Brackets");
 		}
 	}
 
